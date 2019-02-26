@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Joel Venable's Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Experience</a></li>
+      <li><a href="#">Photos</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+
+  </nav>
+  <figure>
+    <img class="main-img" src="img/placeimg_200_200_grayscale_tech.jpg" alt="Joel Venable, Web Developer">
+    <figcaption>Joel is a great coder.</figcaption>
+  </figure>
+
+  <h1>Joel Venable, Web Developer</h1>
+
+
+
+  <section class="qual">
+    <h2 class="section--title">Summary of Qualifications</h2>
+    <ul>
+      <li>Esperience as a freelance web developer</li>
+      <li>Experience with HTML, CSS, and JavaScript</li>
+      <li>Bachelor's Degree in Business Administration</li>
+    </ul>
+
+
+  </section>
+  <table>
+    <caption>Employee Information</caption>
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Job Role</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td colspan="3">Data is updated every 15 minutes.</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <th scope="row">Joel Venable</th>
+        <td>joel@example.com</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <th scope="row">Bob Example</th>
+        <td>Bob@example.com</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <th scope="row">James Madison</th>
+        <td>james@example.com</td>
+        <td>Business Strategist</td>
+      </tr>
+    </tbody>
+  </table>
+  <section class="section--contact">
+    <h2 class="section--title section--title__cap">Contact me</h2>
+    <p><strong>Email: </strong><a href="mailto:joel.d.venable@gmail.com?subject=Hi%20There!">joel.d.venable@gmail.com</a></p>
+  </section>
+
+
+  <form action="/" method="post">
+    <h1>Sign Up</h1>
+    <fieldset>
+      <legend><span class="number">1</span>Your basic info</legend>
+      <label for='name'>Name:</label>
+      <input type='text' id='name' name='user_name'>
+      <label for='email'>Email:</label>
+      <input type="email" id="mail" name="user_email">
+      <label for='password'>Password:</label>
+      <input type="password" id="password" name="user_password">
+      <label>Age:</label>
+      <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13">Under 13</label><br>
+      <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13">13 or older</label>
+    </fieldset>
+    <fieldset>
+      <legend><span class="number">2</span>Your profile</legend>
+      <label for='bio'>Biography:</label>
+      <textarea id="bio" name="user_bio"></textarea>
+      <label for='job'>Job:</label>
+      <select id='job' name="user_job">
+        <optgroup label="web">
+          <option value="frontend_developer">Front-End Developer</option>
+          <option value="php_developer">PHP Developer</option>
+          <option value="python_developer">Python Developer</option>
+          <option value="rails_developer">Rails Developer</option>
+          <option value="web_designer">Web Designer</option>
+        </optgroup>
+        <optgroup label="mobile">
+          <option value="android_developer">Android Developer</option>
+          <option value="mobile_designer">Mobile Designer</option>
+        </optgroup>
+        <optgroup label="business">
+          <option value="business_owner">Business Owner</option>
+      </select>
+      <label>Interests:</label>
+      <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light"
+        for="development"></label><br>
+      <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design"></label><br>
+      <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business"></label><br>
+      </optgroup>
+
+    </fieldset>
+    <button type="submit">Sign Up</button>
+  </form>
+</body>
+
+</html>

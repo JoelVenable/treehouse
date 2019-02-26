@@ -1,0 +1,25 @@
+body {
+  font-family: arial;
+}
+
+
+
+
+h1 {
+  background-color: #e2e2e2;
+  padding: 5px;
+}
+
+
+.main-img {
+  border: solid 4px black;
+  border-radius: 50%;
+}
+
+.section--title {
+  text-transform: uppercase;
+}
+
+.section--title__cap {
+  text-transform: capitalize;
+}
