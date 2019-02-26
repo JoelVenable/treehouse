@@ -1,0 +1,26 @@
+/* ================================= 
+  Flexbox
+==================================== */
+
+
+.container {
+  display: flex;
+  min-height: 50vh;
+  flex-wrap: wrap;  /*  Wraps content to prevent overflow. */
+  /* justify-content: space-around;  */
+  justify-content: center;
+  align-items: center;  
+  /* default is "stretch" */
+}
+
+
+.item {
+  flex-grow: 0;  /* Items expand to the width of the container */
+  flex-basis: 400px;  /* Sets the breakpoint at which flex items wrap to the next line */
+  margin: auto;
+  /*  flex: can contain flex-grow and flex-basis.
+  flex: (flex-grow) (flex-basis)
+  flex: 1 200px;
+
+  */
+}
