@@ -1,0 +1,3 @@
+#DOM Manipulation - Creating new elements
+
+I'm also taking the time to organize many of the "features" built so far into separate .js files...

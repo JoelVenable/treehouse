@@ -1,3 +1,6 @@
+//  This function outputs all data from the 'students' object.
+
+
 function print(message) {
   document.getElementById('output').innerHTML = message;
 }
